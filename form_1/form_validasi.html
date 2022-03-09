@@ -4,74 +4,94 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="form_validasi.css">
-	<title>Form Validasi</title>
+	<title>Form Validate</title>
 </head>
 <body>
 	<h1>Form Bootcamp Registration</h1>
 		<form action="register.py" method="post"></form>
 			<fieldset>
-				<!-- <legend>Register</legend> -->
-				<div>
-				<p>
-					<label>Name</label>
-					<input type="text" name="Name" placeholder="Fullname..." required />
-				</p>
-				<p>
-					<label>Address</label>
-					<input type="textarea" width="auto" height="auto" placeholder="Address..." required>
-				</p>
-				<p>
-					<label>Gender</label>
-					<label><input type="radio" name="Gender" value="Male">Male</label>
-					<label><input type="radio" name="Gender" value="Female">Female</label>
-				</p>
-				<p>
-					<label>Birth</label>
-					<input type="date" name="date">
-				</p>
-				<p>
-					<label>Religion</label>
-					<select name="Religion" id="Chose">
-						<option value="Islam">Islam</option>
-						<option value="Christian">Christian</option>
-						<option value="Hinduism">Hinduism</option>
-						<option value="Budhism">Budhism</option>
-						<option value="Jewish">Jewish</option>
-					</select>
-				</p>
-				<p>
-					<label>Mobile Number</label>
-					<input type="tel" name="Mobile" placeholder="0822xxxxxx">
-				</p>
-				<p>
-					<label>Email</label>
-					<input type="email" name="email" placeholder="name@email.com" required>
-				</p>
-				<p>
-					<label>Username</label>
-					<input type="text" name="username" placeholder="Username..." required/>
-				</p>
-				<p>
-					<label>Password</label>
-					<input type="pasword" name="pasword" placeholder="Password..." required/>
-				</p>
-				<p>
-					<label>Retype Password</label>
-					<input type="pasword" name="pasword" placeholder="Password..." required/>
-				</p>
-				<p>
-					<label>Course</label><br>
-						<label><input type="checkbox" name="Course" value="Frontend">Frontend</label><br>
-						<label><input type="checkbox" name="Course" value="Backend">Backend</label><br>
-						<label><input type="checkbox" name="Course" value="UI/UX">UI/UX</label><br>
-						<label><input type="checkbox" name="Course" value="INKSCAPE">INKSCAPE</label><br>
-				</p>
-				<p>
-					<label><input type="checkbox" name="remember" value="remember"/>I agree that all data submitted is correct data.</label>
-				</p>
-				<p>
-					<input type="submit" name="submit" value="Register">
-				</p>
+				<div class="container">
+					<table width="100%" border="0" cellpadding="5" cellspacing="0">
+						<tr>
+							<td><p><label>Name</label></p></td>
+							<td><p><input type="text" name="Name" placeholder="Fullname..." required /></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Address</label></p></td>
+							<td><p><label><input type="textarea" width="auto" height="auto" placeholder="Address..." required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>City</label></p></td>
+							<td><p><label><input type="text" width="auto" height="auto" placeholder="City..." required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Zip Code</label></p></td>
+							<td><p><label><input type="text" width="auto" height="auto" placeholder="Zip Code..." required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Region</label></p></td>
+							<td><p><label><input type="text" width="auto" height="auto" placeholder="Region..." required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>State</label></p></td>
+							<td><p><label><input type="text" width="auto" height="auto" placeholder="State..." required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Gender</label></p></td>
+							<td><p><label><input type="radio" name="Gender" value="Male">Male</label>
+									<label><input type="radio" name="Gender" value="Female">Female</label></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Birthdate</label></p></td>
+							<td><p><input type="date" name="date"></p></td>
+							</td>
+						</tr>
+						<tr>
+							<td><p><label>Religion</label></p></td>
+							<td><p><select name="Religion" id="Chose">
+										<option value="Islam">Islam</option>
+										<option value="Christian">Christian</option>
+										<option value="Hinduism">Hinduism</option>
+										<option value="Budhism">Budhism</option>
+										<option value="Jewish">Jewish</option>
+									</select></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Mobile Number</label></p></td>
+							<td><p><input type="tel" name="Mobile" placeholder="0822xxxxxx"></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Email</label></p></td>
+							<td><p><input type="email" name="email" placeholder="name@email.com" required></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Username</label></p></td>
+							<td><p><input type="text" name="username" placeholder="Username..." required/></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Password</label></p></td>
+							<td><p><input type="pasword" name="pasword" placeholder="Password..." required/></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Retype Password</label></p></td>
+							<td><p><input type="pasword" name="pasword" placeholder="Password..." required/></p></td>
+						</tr>
+						<tr>
+							<td><p><label>Course</label><br></p></td>
+							<td><p>
+									<label><input type="checkbox" name="Course" value="Frontend">Frontend</label><br>
+									<label><input type="checkbox" name="Course" value="Backend">Backend</label><br>
+									<label><input type="checkbox" name="Course" value="UI/UX">UI/UX</label><br>
+									<label><input type="checkbox" name="Course" value="INKSCAPE">INKSCAPE</label><br></p></td>
+						</tr>
+						<tr>
+							<td colspan="2"><p><label><input type="checkbox" name="remember" value="remember"/>
+									I agree all data submitted is correct.</label></p></td>
+						</tr>
+						<tr>
+							<td align="center" colspan="2"><p><input type="submit" name="submit" value="Register"></p></td>
+						</tr>
+					</table>
 				</div>
 			</fieldset>
 		</form>
