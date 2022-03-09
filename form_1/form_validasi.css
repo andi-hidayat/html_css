@@ -1,13 +1,16 @@
-* {
-	background-color: ;
+body {
+	background: url("Gunung-Fuji.jpg");
 	font-family: sans-serif;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 fieldset{
 	max-width: 30%;
 	border-radius: 10px;
 	border-style: solid;
-	background: orange;
+	background: lightyellow;
 	display: flex;
 	justify-content: center;
 	margin: 10px auto;
