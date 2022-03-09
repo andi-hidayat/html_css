@@ -1,0 +1,25 @@
+* {
+	background-color: ;
+	font-family: sans-serif;
+}
+legend {
+	text-align: center;
+	font-style: bold;
+}
+fieldset{
+	max-width: 50%;
+	border-radius: 10px;
+	border-style: solid;
+	background: orange;
+}
+div {
+	color: ;
+	margin: 5px 5px;
+	padding: 3px;
+	background: salmon;
+	border-radius: 10px;
+}
+h1 {
+	text-align: ;
+	color: darkblue;
+}
